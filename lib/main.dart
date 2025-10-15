@@ -43,7 +43,9 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('sqflite'),
       ),
-      body: Center(
+      body: Padding(
+        padding: const EdgeInsets.all(30),
+        child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -68,6 +70,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ],
         ),
+      ),
       ),
     );
   }
